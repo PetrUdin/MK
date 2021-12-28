@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MK</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <main class="main">
+        <button class="main__btn">Регистрация</button>
+    </main>
+    <div class="modal">
+        <div class="modal__container">
+            <div class="modal__close">&times;</div>
+            <h2 class="modal__title">Регистрация</h2>
+            <form id="form" action="" class="modal__form">
+                <label>E-mail<input type="email" name="mail req" required></label>
+                <label>Никнейм<input type="text" name="name" required></label>
+                <label>Пароль<input type="password" name="password" required></label>
+                <div class="modal__pass-cond">
+                    <span>Пароль должен содержать:</span>
+                    <span><img src="/Data/img/default.svg" alt="">от 6 до 32 символов</span>
+                    <span><img src="/Data/img/error.svg" alt="">цифру</span>
+                    <span><img src="/Data/img/ok.svg" alt="">заглавную и строчную буквы</span>
+                    <span>Пароль не должен совпадать с Никнеймом</span>
+                </div>
+                <label>Пароль еще раз<input type="password" name="password" required></label>
+                <div class="modal__check-wrap"><input type="checkbox" name="accept" class="modal__check">&nbsp Я принимаю условия &nbsp<a href="#" class="form__link">Пользовательского соглашения</a></div>
+                <button class="modal__btn" type="submit" disabled>Зарегистрироваться</button>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
