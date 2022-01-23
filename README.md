@@ -1,3 +1,3 @@
 
-### Url:
-### <https://petrudin.github.io/NAMI/>
+### MK:
+### <https://petrudin.github.io/MK/>
